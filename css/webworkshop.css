@@ -130,7 +130,13 @@ ul{
     line-height: 36px;
     letter-spacing: -1px;
 }
-
+.slide h1{
+    -webkit-transform: rotate(-2deg);
+}
+.slide strong{
+    display: inline-block;
+    -webkit-transform: rotate(3deg);
+}
 .slide p.holymoly{
     margin-top: 350px;
     font-size: 25px;
@@ -165,12 +171,22 @@ ul{
     line-height: 1.5;
 }
 .step iframe{
-    height: 900px;
+    height: 700px;
     width: 900px;
 }
 .step p:not(.left) + p{
     margin-top: 30px;
 }
+.future.step,
+.past.step{
+    opacity: 0.4;
+    -webkit-transition: opacity 555ms;
+}
+.present.step{
+    opacity: 1;
+    -webkit-transition: opacity 213ms;
+}
+        
 
 /* slides */
 #kidding{}
