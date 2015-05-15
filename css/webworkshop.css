@@ -286,15 +286,3 @@ ul {
 #kidding {}
 
 #onlycoin {}
-
-#onlycoin {}
-
-#coin-screenshot {
-	display: block;
-	z-index: 10000000;
-}
-
-#coin-screenshot img {
-	height: auto;
-	width: 100%;
-}
