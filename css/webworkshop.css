@@ -285,4 +285,7 @@ ul {
 
 #kidding {}
 
-#onlycoin {}
+#onlycoin img{
+	height: 100%;
+	width: 100%;
+}
